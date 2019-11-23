@@ -1,157 +1,526 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Team-Grid.css">
-    <link rel="stylesheet" href="assets/css/Testimonials.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>5000 | Denver Colorado</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- GOOGLE FONTs links -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+    <!-- FONTAWESOME link -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" href="./assets/CSS/w3.css">
+    <link rel="stylesheet" href="./assets/CSS/carousel.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    
+    <!-- Favicon -->
+<link rel="shortcut icon" href="./images/5k-favicion.png">  
+
 </head>
-<body>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Turntable.js"></script>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
 
-<nav class="navbar navbar-expand-lg navbar-custom">
-<a class="navbar-brand" href="#"><img src="./assets/images/5000 - brand logo.png"></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon navbar-dark"><i class="fa fa-bars" style="color:#fff; font-size:28px;"></i></span>
-</button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>        
+        </button>
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Store
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Widgets</a>
-        <a class="dropdown-item" href="#">Publications</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Catalog</a>
+        <a class="navbar-brand" href="#myPage"><img src="./images/5000 - brand logo.png" width="120" height="50" ></a>
         </div>
-    </li>
-    
-    </ul>
-    
-</div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#myPage">HOME</a></li>
+            <li><a href="#about">BIO</a></li>
+            <li><a href="#music">MUSIC</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#tour">UPCOMING SHOWS</a></li>
+            <li><a href="merch.html">MERCH</a></li>
+            <!-- <li><a href="#contact">EXTRAS</a></li> -->
+            <li><a href="#contact">CONTACT</a></li>
+            <!-- <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span></a> -->
+            <!-- <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+            </ul> -->
+        </li>
+        
+        </ul>
+    </div>
+    </div>
 </nav>
-    <div class="carousel slide" data-ride="carousel" id="carousel-1">
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="jumbotron hero-nature carousel-hero">
-                    <h1 class="hero-title"></h1>
-                    <h1 class="hero-title">What are the fans saying?</h1>
-                    <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="jumbotron hero-photography carousel-hero">
-                    <h1 class="hero-title">What are the fans saying?</h1>
-                    <p class="hero-subtitle" style="font-style: italic;">"Its' been so long since anything original has come through! I had to catch my apparent jaded self and put that away."</p>
-                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="jumbotron hero-technology carousel-hero">
-                    <h1 class="hero-title">What are the fans saying?</h1>
-                    <p class="hero-subtitle" style="font-style: italic;">"Very familer sound, angsty, bluesy; the guitar has ALOT to say. The lyrics come from a life lived. Cranberry's & Clapton come to mind."</p>
-                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
-                </div>
-            </div>
-        </div>
-        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
-        <ol
-            class="carousel-indicators">
-            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-1" data-slide-to="1"></li>
-            <li data-target="#carousel-1" data-slide-to="2"></li>
-            </ol>
-    </div>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12"></div>
-            </div>
-        </div>
-    </div>
-    <div class="team-grid">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">The Band</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet.&nbsp; </p>
-            </div>
-            <div class="row people">
-                <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(assets/images/Meghann-1.jpg)">
-                        <div class="cover">
-                            <h3 class="name">Meghann</h3>
-                            <p class="title">Lead Vox & Rhythm</p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(assets/images/Matt-1.jpg)">
-                        <div class="cover">
-                            <h3 class="name">Matt</h3>
-                            <p class="title">Lead & Backup Vox</p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(assets/images/Kolby-1.jpg)">
-                        <div class="cover">
-                            <h3 class="name">Kolby</h3>
-                            <p class="title">Precussion</p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 item">
-                    <div class="box" style="background-image:url(assets/images/Mia-1.jpg)">
-                        <div class="cover">
-                            <h3 class="name">Mia</h3>
-                            <p class="title">Bass</p>
-                            <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">Company Name © 2017</p>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-</body>
 
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top: 50px;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+        <img src="./images/1.png" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+        </div>      
+        </div>
+
+        <div class="item">
+        <img src="./images/2.png" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+            <h5>What are the fans saying?</h5>
+            <p style="font-style: italic; font-size: large;">"Its' been so long since anything original has come through! I had to catch my apparent jaded self and put that away."</p>
+        </div>      
+        </div>
+    
+        <div class="item">
+        <img src="./images/3.png" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+            <h5>What are the fans saying?</h5>
+            <p style="font-style: italic; font-size: large;">"Very familer sound... angsty & bluesy; the guitar has ALOT to say. <br>The lyrics come from a life lived. Cranberry's & Clapton come to mind."</p>
+        </div>      
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="bg-gradients"></div>
+
+<!-- ##### About Us Area Start ##### -->
+<div class="container-about" id="about">
+<!-- <div class="about-us-area section-padding-100-0 bg-img bg-overlay" id="about"> -->
+    <div class="col-md-12 order-md-1" style="text-align: center;">
+        <h2>Artist Bio</h2>
+        <h6 class="bio-subtext" style="font-style: italic;">(psst...Make sure to sign up on our email list to keep track of our shows, new music and 5000 merchandise. <br>Dont worry, we hate spam too.)</h6>
+    </div>
+        <div class="row featurette">
+                <div class="col-md-4 order-md-1">
+                        <img src="./images/Meghann-2.jpg" style="height: 100%; width: 100%; object-fit: contain">  
+                    </div>
+                <div class="col-md-8 order-md-2">
+                <h4>Hi, It’s Meghann!</h4>
+                <p>Based in Denver, CO, <em style="font-weight: bolder;">5000</em> plays original music as a duo and a four piece band. Started by Meghann Jordan & Matt Youngblood.
+                The current 4-piece line up for <em style="font-weight: bolder;">5000</em> includes drummer Koby Chapman and bassist Mia Dugas.
+                <br>
+                Original music via a Minneapolis-meets-Athens alterna-punk with strong 90s influence, particularly Dinosaur Jr., R.E.M. and Tom Petty'ish influence.
+                <p>Meghann <em style="font-weight: bolder;">(5000)</em> Jordan came up in the Athens, GA music scene. Surrounded by such influences as R.E.M. and Vic Chesnutt, and other local musicians, she started playing guitar at age 13 and writing songs at 18. Matt spent the 2000's in Minneapolis fronting his three-piece rock band "Chunky Jackson". They were heavily influenced by local bands such as Hüsker Dü and the Replacements. Meghann and Matt met through longtime musical cohorts Dave Schools and Jerry Joseph. Both moved to Denver & started an original rock band. They have been gigging as a duo (and sometimes a 4-piece rock band) for the past 3.5 years locally, as well as nationally. 
+                </p>
+                <p>In early 2017, Meghann returned to Athens to record her first 6-song EP under the name <em style="font-weight: bolder;">"5k"</em> backed by Creston Spiers and Paul Trudeau of Harvey Milk with Mike Albanese from Espresso Machine Studios. In April 2017 Meghann and Matt played their first show at The Winter Park Pub in Winter Park, Colorado which led to some national dates. In February 2018, with their original 4-piece line up, they recorded their first single “Anger” with Kyle Jones at Sleeping Brotherhood Music Recording Studio in Denver, CO. They continued playing duo shows and a few full band shows in the summer of 2018 with an ever-evolving cast of players. In the interim, 5000 the Duo recorded a series of singles at KMG Life Studios in Boulder, CO and Shitshow Studios in Denver with Eric Martinez.
+                    
+            </div>
+        </div>
+        <div class="order-md-3">               
+                The current line up includes Meghann (vocals, guitar), Matt (lead guitar, vocals), Koby Chapman (drums & precussion) and Mia Dugas (Bass). Koby 'k.biz' Chapman was born and raised in Denver, CO. At the age of 12 he began to play the drums, taking lessons at his local drum shop and joining school bands. Koby's background includes hip hop and electronic music. Mia, originally from Louisiana, cut her teeth in the Atlanta music scene in the 90's playing throughout the SE US with Alterna/Psychedelic Jam-Band "touch" and has been grooving ever since.
+        <em style="font-weight: bolder;">5000</em> has been playing regularly around Colorado and the Denver metro-area and are currently at work on a full-length album with Todd Divel of Silo Sound set to release in early of 2020. 
+
+        Make sure to sign up on our email list to keep track of our shows, new music and 5000 merchandise.
+        
+        <img src="./images/m-sig.png" style="float: right;">
+    </p>
+    <br>
+    </div>
+            </div>
+
+    
+
+</div>
+
+<div class="bg-gradients"></div>
+
+<!-- ##### About Us Area End ##### -->
+
+<!-- MUSIC Section -->
+
+<div class="container-music" id="music" style="background-color: black;">
+    <div class="col-md-12 order-md-1" style="text-align: center; margin-bottom: 40px;">
+            <h2 style="color: white; text-align: center;">MUSIC</h2>
+            <!-- <h6 class="bio-subtext" style="font-style: italic; text-align: center;">Remember to book your tickets!</h6>  -->
+            <div class="album-title">
+                    <h6 style="opacity: 1.10; color: #c5afd9;">Featured album</h6>
+                    <h4 style="color: white;">5000 the Band</h4>
+            </div>
+        <hr>
+    </div>
+            
+<div class="row featurette">
+    <div class="col-md-4 order-md-1" style="margin-top: 20px;">
+    <img src="./images/MJ-album-cover.jpg" style="height: 80%; width: 100%; object-fit: contain">  
+</div>
+<!-- Album Info -->
+<div class="album-info mb-50 d-flex flex-wrap align-items-center justify-content-between">
+    <div class="col-md-8 order-md-2">
+        <br>
+        <iframe width="100%" height="265" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_5947418?widget_id=55&pwc[included_songs]=1&context_type=page_object&pwc[size]=small" style="width:0px;min-width:100%;max-width:100%;"></iframe>
+    </div>
+    <br>
+</div> 
+<div class="col-md-8 order-md-3"> 
+        <h6 style="color: white;">Find Us Everywhere!</h6>
+        <ul class="list-inline">
+                <li class="list-inline-item">
+                        <a href="https://geo.music.apple.com/us/artist/5000-the-band/1443387689?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=&kind=artist&bubble=apple_music) no-repeat;width:158px;height:45px;" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                        <a href="https://play.google.com/store/music/artist/5000_the_Band?id=Aoeo2i3sbjpd6e7uo3xeh4vkaie" style="display:inline-block;overflow:hidden;background:url(./images/gplay.png) no-repeat;width:158px;height:45px;" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                        <a href="https://music.amazon.com/artists/B07KNWHVZ6?ref=dm_sh_c64c-dde4-dmcp-f323-68bc1&musicTerritory=US&marketplaceId=ATVPDKIKX0DER" style="display:inline-block;overflow:hidden;background:url(./images/amazon-badge-1.png) no-repeat;width:158px;height:45px;" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                        <a href="https://open.spotify.com/artist/2V1AbZBAEztH8qYjvlL6bR" style="display:inline-block;overflow:hidden;background:url(./images/spotify_logo_rgb_white.png) no-repeat;width:158px;height:45px;" target="_blank"></a>
+                </li>                
+            </ul>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-gradients"></div>
+<!-- MUSIC section end-->
+
+<!-- Container (The Band Section) -->
+    <div class="section-heading" id="band" style="text-align: center;">
+
+    <div class="team-grid">
+            <div class="container-about">
+                <div class="intro">
+                        <h2>THE BAND</h2>
+                        <h6 class="bio-subtext" style="font-style: italic; font-size: large;"><em>WE ARE 5000!</em></h6>
+                </div>
+                <!-- <div class="row">
+                <div class="col-lg-3 item">
+                        <div class="box" style="background-image:url(assets/images/bear.jpg)">
+                            <div class="cover">
+                                <h3 class="name">Bearly</h3>
+                                <p class="title">Band Spiritual Advisor & Wildcard</p>
+                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <br>
+    <div class="row people">
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style="background-image:url(./images/Meghann-4.jpg)">
+                <div class="cover">
+                    <h3 class="name">Meghann</h3>
+                        <p class="title">Lead Vox & Rhythm</p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style="background-image:url(./images/Matt-1.jpg)">
+                <div class="cover">
+                    <h3 class="name">Matt</h3>
+                        <p class="title">Lead & Backup Vox</p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style="background-image:url(./images/Kolby-2.jpg)">
+                <div class="cover">
+                    <h3 class="name">Kolby</h3>
+                        <p class="title">Drums & Precussion</p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 item">
+            <div class="box" style="background-image:url(./images/Mia-3.jpg)">
+                <div class="cover">
+                    <h3 class="name">Mia</h3>
+                        <p class="title">Bass</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+    </div>
+<div class="bg-gradients"></div>
+
+<!-- Upcoming Shows Section -->
+<div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 style="color: white; text-align: center;">UPCOMING SHOWS</h2>
+        <h6 class="bio-subtext" style="font-style: italic; text-align: center;">Remember to book your tickets!</h6>
+
+        <ul class="w3-ul w3-border w3-white w3-text-grey">
+            <li class="w3-padding">December <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+            <!-- <li class="w3-padding">January<span class="w3-tag w3-red w3-margin-left">Sold out</span></li> -->
+            <li class="w3-padding">January <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        </ul>
+    
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="./images/bear.jpg" alt="Show1" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white" style="text-align: center;">
+                <p><b>Denver Colorado</b></p>
+                <p class="w3-opacity">Sat 4 Jan 2020</p>
+                <p>Location - TBD</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="./images/matt gear-1.png" alt="Paris" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white" style="text-align: center;">
+                <p><b>Denver Colorado</b></p>
+                <p class="w3-opacity">Sat 11 Jan 2020</p>
+                <p>Location - TBD</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="./images/Meghann-what.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white" style="text-align: center;">
+                <p><b>Denver Colorado</b></p>
+                <p class="w3-opacity">Sun 26 Jan 2020</p>
+                <p>Location - TBD</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- Ticket Modal -->
+    <div id="ticketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32"> 
+            <span onclick="document.getElementById('ticketModal').style.display='none'" 
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+        </header>
+        <div class="w3-container">
+            <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+            <input class="w3-input w3-border" type="text" placeholder="How many?">
+            <p><label><i class="fa fa-user"></i> Send To</label></p>
+            <input class="w3-input w3-border" type="text" placeholder="Enter email">
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        </div>
+        </div>
+    </div>
+    <div class="bg-gradients"></div>
+
+<!-- Container (Contact Section) -->
+
+<!--Section: Contact v.2-->
+<section class="mb-4" style="margin: 40px;">
+
+        <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Love Us? Hate Us? <br> Drop us a note.</p>
+    
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="text-center ">
+                        <button type="submit" class="btn btn-danger">Send</button>
+                </div>
+                <br>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            
+            <!--Grid column-->
+    
+        </div>
+    </form>
+    </section>
+    <!--Section: Contact v.2-->
+
+<!-- <div class="row contctform" style="margin: 10px;" id="contact">
+        <div class="col-md-12 col-md-offset-2">
+                <h2 style="color: black; text-align: center;" >CONTACT US</h2>
+                <h6 class="bio-subtext" style="font-style: italic; text-align: center;">We love our fans!</h6>
+        </div>
+        <form action="" method="post" role="form" class="contactForm">
+        <div class="col-md-4 col-md-offset-2">
+            <div class="form">
+            <div class="form-group">
+            <form action="https://formspree.io/mjvvqpjr" method="POST">
+        <label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
+        </label>
+            </div>
+            <div class="form-group">
+                    <label>
+                <input type="email" class="form-control" id="email" name="_replyto" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
+            </label>
+            </div>
+            <div class="form-group">
+                    <label>
+                <input type="text" class="form-control" name="subject" cols="88" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            </label>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form">
+            <div class="form-group">
+            <label>
+                <textarea class="form-control" name="message" rows="5" cols="88" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+            </label>
+            
+<div class="col-md-3 text-center">
+                    <p>Love Us? Hate Us? <br> Drop us a note.</p>
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <p><span class="glyphicon glyphicon-map-marker"></span>Denver Colorado</p>
+                    </li>
+    
+                    <li><p><span class="glyphicon glyphicon-phone"></span>Phone: (612) 270-0320</p>
+                    </li>
+    
+                    <li><p><span class="glyphicon glyphicon-envelope"></span>Email: 5000theband@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+    </div> -->
+
+<div class="bg-gradients"></div>
+        <br>
+
+<div class="container-foot" style="text-align: center; display: block;">        
+    <div class="text-center center-block">
+        <br />
+            <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook fa-3x social"></i></a>
+
+            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter fa-3x social"></i></a>
+
+            <a href="https://www.facebook.com/bootsnipp"><i id="social-bc" class="fa fa-bandcamp fa-3x social"></i></a>
+                        
+            <a href="https://www.facebook.com/bootsnipp"><i id="social-sc" class="fa fa-soundcloud fa-3x social"></i></a>
+
+            <a href="https://www.facebook.com/bootsnipp"><i id="social-rn" class="fa fa-star fa-3x social"></i></a>
+
+            <a href="https://www.facebook.com/bootsnipp"><i id="social-yt" class="fa fa-youtube fa-3x social"></i></a>
+
+            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+        <br>
+            <ul class="list-inline" style="font-size: large; text-decoration: none;">
+                <li class="list-inline-item"><a href="#home">Home</a></li>
+                <li class="list-inline-item"><a href="#about">Bio</a></li>
+                <li class="list-inline-item"><a href="#music">Music</a></li>
+                <li class="list-inline-item"><a href="#band">Band</a></li>
+                <li class="list-inline-item"><a href="#tour">Upcoming Shows</a></li>
+                <li class="list-inline-item"><a href="merch.html">Merch</a></li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+                <!-- <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li> -->
+            </ul>
+        <br>
+            <p class="copyright" style="text-align: center;">5000 © 2019</p>
+            <p style="font-size: x-small; text-align: center;">
+            <span>Some Rights Reserved. Made with <i class="fa fa-xs fa-heart" style="color:red "></i></span></p>
+            <img src="./images/Mia-logo 4 lightback copy.png" style="height: 100px; width: 100px;">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="./script.js"></script>
+</body>
 </html>
